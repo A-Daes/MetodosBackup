@@ -1,0 +1,40 @@
+
+
+print (2.33-5.67j)/(10.2+9.6j)
+
+data=[1, 2, 4, 5, 3, 8, 100, 2, 1, 1.2]
+
+
+
+print data
+
+data.append(2)
+
+print data
+
+data.sort()
+
+print data
+
+
+def f(x) :
+	return x%3==0 or x%5==0
+
+print filter(f,range(2,100))
+
+def g(x):
+	return (x^x^x)
+
+print map(g, range(1,28))
+
+print filter(g, range(1,28))
+
+
+eps = 1.0
+while (1.0 != 1.0+eps):
+	print eps
+	eps=eps/2.0
+print 'final eps:' 
+print eps
+
+
